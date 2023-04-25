@@ -7,3 +7,19 @@
 # Accessing data from the hash
 
 # More Complex Hashes
+
+
+
+
+index = 0
+loop do
+    if index = friends.length
+        break
+    end
+
+friend = friends[index]
+greeting = "Hi, #{friend}"
+puts greeting
+
+    index = index +1
+end

@@ -9,3 +9,29 @@
 
 # Loop through tacos
 # tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+
+
+
+friends = ['Rachel', 'Monica', 'Phoebe', 'Ross', 'Chandler', 'Joey']
+
+
+
+
+index = 0
+loop do
+    if index == friends.length
+        break
+    end
+
+friend = friends[index]
+greeting = "Hi, #{friend}"
+puts greeting
+
+    index = index +1
+end
+
+for friend in friends
+    greeting = "Hi, #{friend}"
+    puts greeting
+end
+
